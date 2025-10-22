@@ -3,6 +3,6 @@
     "project_slug": "plantilla_personal_cookiecutter",
     "project_description": "Una plantilla de proyecto personal con Cookiecutter",
     "project_author_name": "Tu Nombre",
-    "project_packages": ["Todo", "Mínimo"],
+    "project_packages": ["All", "Minimal"],
     "project_python_version": "3.8"
 }
