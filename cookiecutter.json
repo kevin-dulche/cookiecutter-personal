@@ -1,5 +1,5 @@
 {
-    "project_title": "Plantilla personal de Cookiecutter",
+    "project_name": "Plantilla personal de Cookiecutter",
     "project_slug": "plantilla_personal_cookiecutter",
     "project_description": "Una plantilla de proyecto personal con Cookiecutter",
     "project_author_name": "Tu Nombre",
