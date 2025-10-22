@@ -1,5 +1,5 @@
 {
-    "project_name": "Plantilla personal de Cookiecutter",
+    "project_name": "Nombre de tu proyecto",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_author_name": "Tu Nombre (o tu organización/empresa/equipo)",
     "project_author_email": "Tu email (o tu organización/empresa/equipo)",
