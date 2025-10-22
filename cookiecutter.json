@@ -1,9 +1,9 @@
 {
     "project_name": "Nombre de tu proyecto",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_author_name": "Tu Nombre (o tu organización/empresa/equipo)",
-    "project_author_email": "Tu email (o tu organización/empresa/equipo)",
-    "project_description": "Una breve descripción del proyecto.",
+    "project_slug": "{{ cookiecutter.project_name.replace(' ', '_').replace('-', '_') }}",
+    "project_author_name": "Tu Nombre (o tu organizacion/empresa/equipo)",
+    "project_author_email": "Tu email (o tu organizacion/empresa/equipo)",
+    "project_description": "Una breve descripcion del proyecto.",
     "project_packages": ["All", "Minimal"],
     "project_python_version": "3.10",
     "project_version": "0.1.0"
