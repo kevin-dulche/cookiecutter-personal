@@ -34,7 +34,7 @@ activate {{ cookiecutter.project_slug }}
         │
         ├── notebooks          <- Cuadernos Jupyter. Convención de nombres: un número (para ordenar),
         │                         las iniciales del creador y una breve descripción separada por `-`, por ejemplo
-        │                         `1.0-jvelezmagic-initial-data-exploration`.
+        │                         `1.0-{{ cookiecutter.project_author_name }}-initial-data-exploration`.
         │
         ├── .gitignore         <- Archivos a ignorar por `git`.
         │
