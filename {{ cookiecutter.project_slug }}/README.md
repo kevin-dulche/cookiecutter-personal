@@ -28,16 +28,16 @@ activate {{ cookiecutter.project_slug }}
 ## Project organization
 
     {{ cookiecutter.project_slug }}
-        ├── data
-        │   ├── processed      <- Los conjuntos de datos finales y canónicos para el modelado.
-        │   └── raw            <- Los datos originales e inmutables.
-        │
-        ├── notebooks          <- Cuadernos Jupyter. Convención de nombres: un número (para ordenar),
-        │                         las iniciales del creador y una breve descripción separada por `-`, por ejemplo
-        │                         `1.0-{{ cookiecutter.project_author_name }}-initial-data-exploration`.
-        │
-        ├── .gitignore         <- Archivos a ignorar por `git`.
-        │
-        ├── environment.yml    <- El archivo de requisitos para reproducir el entorno de análisis.
-        │
-        └── README.md          <- El README de alto nivel para desarrolladores que usan este proyecto.
+    ├── data
+    │   ├── processed      <- Los conjuntos de datos finales y canónicos para el modelado.
+    │   └── raw            <- Los datos originales e inmutables.
+    │
+    ├── notebooks          <- Cuadernos Jupyter. Convención de nombres: un número (para ordenar),
+    │                         las iniciales del creador y una breve descripción separada por `-`, por ejemplo
+    │                         `1.0-{{ cookiecutter.project_slug }}-initial-data-exploration`.
+    │
+    ├── .gitignore         <- Archivos a ignorar por `git`.
+    │
+    ├── environment.yml    <- El archivo de requisitos para reproducir el entorno de análisis.
+    │
+    └── README.md          <- El README de alto nivel para desarrolladores que usan este proyecto.
